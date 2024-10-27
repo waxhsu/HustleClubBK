@@ -1,0 +1,215 @@
+.calendar {
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 auto; */
+    /* width: 75%; */
+    /* border: 1px solid red; */
+    max-width: 80em;
+    margin-top: 1em;
+}
+
+#scheduleCard {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    padding: 20px;
+    /* width: 100%; */
+    margin: 5px 0;
+}
+
+.weekInfo {
+    /* padding-left: 45px; */
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.headerTitle {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;  
+    padding-left: 10px;
+    /* font-size: 17px; */
+    padding: 0.5em 0;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 7px;
+}
+
+
+
+.scheduleIconImg {
+    max-width: 1.75rem;
+    max-height: 1.75rem;
+    padding: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.scheduleIconImg.rotated {
+    transform: rotate(90deg); /* 90-degree rotation */
+}
+
+
+.classTitle {
+    align-content: center;
+    padding-right: 1em;
+}
+
+.clickDetails {
+    padding: 0 .5em;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+
+    
+.subTitle, .topicDetails {
+    padding: 15px 30px 15px;
+    display: flex;
+    border-radius: 10px;
+    background-color: white;  
+    /* font-weight: 700; */
+    margin-bottom: 7px;
+}
+
+
+.topicDetails {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px 25px;
+    
+}
+
+
+
+.mobile-row {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+.optionDate {
+    font-weight: 500;
+    padding-right: 20px;
+}
+
+.optionTitle {
+    font-weight: 700;
+}
+
+.topicDetails > ul, .topicDetails > li{
+    line-height: 25px;
+}
+
+.topicDetails > ul {
+    padding-left: 10px;
+    margin: 0.5rem;
+} 
+
+.topicDetails > li {
+    padding-left: 4em;
+    text-indent: -1.5em;
+    list-style-position: outside;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* Adjust the width for mobile devices */
+    .courseSchedule p, li, h2 {
+        max-width: 100%;
+    }    
+
+    .calendar {
+        display: flex;
+        flex-direction: column;
+        /* margin: 0 auto; */
+        /* width: 75%; */
+        /* border: 1px solid red; */
+        max-width: 80em;
+        margin-top: 1em;
+    }
+
+    .mobile-row {
+        align-items: center;
+    }
+
+    .scheduleIconImg {
+        max-width: 1.5rem;
+        max-height: 1.5rem;
+        padding: 0 7.5px;
+        transition: transform 0.3s ease;
+    }
+
+    .headerTitle{
+        /* flex-direction: column; */
+        /* align-items: left; */
+        font-size: 14px;
+        line-height: 1.2rem;
+    }
+
+    #optionalTitle, #liveTopicTitle {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding-left: 2.5em
+    }
+
+    .optionDate, .optionTitle {
+        font-size: 14px;
+        line-height: 1.2rem;
+        padding-right: 0;
+    }
+
+    .subTitle {
+        padding: 0.5rem 1rem;
+    }
+
+    .clickDetails {
+        display: none;
+    }
+
+    .topicDetails {
+        padding: 0 .75em .75em .75em;
+    }
+
+    .topicDetails > ul {
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .topicDetails > li {
+        padding-left: 2em;
+        font-size: 15px;
+    }
+
+}

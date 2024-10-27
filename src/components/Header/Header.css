@@ -1,0 +1,204 @@
+/* Basic styles for the header */
+.header {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  /* width: 100%; */
+  /* max-width: 60em; */
+  font-weight: bold;
+}
+
+.header-background {
+  /* background-color: pink; */
+  /* opacity: 75%; */
+  /* padding: 1em 0; */
+  /* padding-bottom: 2em; */
+  width: 100%;
+}
+
+.header-nav {
+  display: flex;
+  background-color: hotpink;
+  /* padding: 0.5em 0; */
+  opacity: 75%;
+  width: 100%;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  position: relative;
+}
+
+/* Logo styles */
+.header-logo {
+  width: 10em;
+}
+
+/* Link styles */
+.header-nav a {
+  color: black;
+  opacity: 50%;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  padding-left: 1em;
+}
+
+/* Default styles for the links */
+.header-links {
+  display: flex;
+  justify-content: space-around;
+  background-color: hotpink;
+  width: 100%;
+  align-items: center;
+  color: black;
+  padding: 0.5em 0;
+  opacity: 75%;
+  position: relative;
+}
+
+/* Hamburger menu styles */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  transition: 0.3s;
+}
+
+/* Styling for the Hero section */
+.hero {
+  display: flex;
+}
+
+.hero img {
+  max-width: 10em;
+  max-height: 10em;
+  height: auto;
+  margin: 0 1em 0 0;
+}
+
+.hero-paragraphs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.hero-paragraphs p {
+  margin: 0.25em;
+  font-size: 20px
+}
+
+/* Styles for the main heading and subtitle */
+#title-container {
+  width: 100%;
+  border-top: 0.2em solid rgba(0, 0, 0, 0) ;
+  border-bottom: 0.2em solid rgba(0, 0, 0, 0) ;
+}
+
+#titleBanner {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 221, 226);
+  font-size: 6.25em;
+  width: 100%;
+  margin: 0;
+  opacity: 80%;
+  /* text-wrap: nowrap; */
+  text-decoration: none;
+}
+
+.subtitleBanner {
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  margin-top: 0;
+  background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+/* Responsive styles for smaller screens */
+/* Updated styles for the header-links in mobile view */
+@media (max-width: 768px) {
+  .header-links {
+    display: none;
+    /* Hide links on mobile by default */
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    opacity: 85%;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 20px 0px 20px 25px;
+    /* Equal padding on all sides */
+    width: auto;
+    /* Set width to auto to accommodate the longest text */
+    min-width: 200px;
+    /* Optional: set a minimum width */
+  }
+
+  .header-links.open {
+    display: flex;
+    /* Show links when menu is open */
+  }
+
+  .header-links a {
+    padding: 10px 10px 10px 10px;
+    /* Reduce padding on the right */
+    text-align: left;
+    /* Align text to the left */
+    width: 100%;
+    /* Make the link take up the full width of the container */
+    white-space: nowrap;
+    /* Prevent text wrapping */
+    text-decoration: none;
+    /* Remove default underline */
+    color: white;
+    /* Link color */
+  }
+
+  .header-links a:hover,
+  .header-links a:active {
+    text-decoration: underline;
+    /* Add underline on hover and active */
+  }
+
+
+  .hamburger {
+    padding-left: 1em;
+    display: flex;
+    /* Show hamburger icon on mobile */
+  }
+
+  .header-nav {
+    flex-direction: row;
+    padding: 0.5em 0;
+  }
+
+  #titleBanner {
+    font-size: 3em;
+  }
+  
+  .subtitleBanner {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8em;
+    margin-top: 0;
+    background-color: yellow;
+  }
+}

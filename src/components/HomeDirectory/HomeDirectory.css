@@ -1,0 +1,38 @@
+.homeDirectory-content {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem auto;
+    width: 100%;
+    max-width: 80em;
+    font-size: 4em;
+    /* min-height: 60em; */
+}
+
+.homeDirectory-content a {
+    padding: 0 12.5%;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-top: rgba(255, 255, 255, 0.5) 1.5px solid;
+}
+
+.homeDirectory-content a:hover {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    opacity: 75%;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .homeDirectory-content {
+        margin: 4rem auto;
+        width: 100%;
+        max-width: 80em;
+        font-size: 4em;
+        
+    }
+}
+  
