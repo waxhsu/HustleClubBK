@@ -21,7 +21,9 @@ export default function Home() {
 
                 < LandingArticle >
                 <div className="landing-text-container">
-                    <h2 className="landing-text">Social dance is for everyone.</h2>
+                    <h2 className="landing-text">
+                        Social dance is for everyone. <br /> Except for you, I guess.
+                    </h2>
                 </div>
                 <div className="landingButton-container">
                     <div className="landing-btn">DANCE ➔</div>

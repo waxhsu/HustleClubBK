@@ -10,41 +10,6 @@ import Page4 from './pages/Page4';
 import Page5 from './pages/Page5';
 
 
-
-
-// Components
-// import Header from './components/Header/Header';
-// import GreenArticle from './components/GreenArticle/GreenArticle';
-// import Article from './components/Article/Article';
-// import Testimonials from './components/Testimonials/Testimonials';
-// import CourseSchedule from './components/CourseSchedule/CourseSchedule';
-// import JaredSpool from './components/JaredSpool/JaredSpool';
-// import Pricing from './components/Pricing/Pricing';
-// import VideoSeries from './components/VideoSeries/VideoSeries';
-// import Footer from './components/Footer/Footer';
-
-
-// function App() {
-//   return (
-//     <div className="App">
-
-//       <Header />
-//       < GreenArticle />
-//       <Article />
-//       <Testimonials />
-//       <CourseSchedule />
-//       {/* <Calendar /> */}
-//       <JaredSpool />
-//       <Pricing />
-//       <VideoSeries />
-//       <Footer />
-//       {/*<FloatingComponent /> */}
-//     </div>
-//   );
-// }
-
-// export default App;
-
 function App() {
   return (
     <Router>
