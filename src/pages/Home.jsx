@@ -6,8 +6,8 @@ import Header from '../components/Header/Header';
 import LandingArticle from '../components/LandingArticle/LandingArticle';
 import Modal from "../components/Modal/Modal";
 import HomeDirectory from "../components/HomeDirectory/HomeDirectory";
-import TestComponent from "../components/TestComponent/TestComponent";
-import bgVideo from "../videos/bg_placeholder.MP4"
+import Footer from '../components/Footer/Footer';
+import bgVideo from "../videos/bgVideo.MP4"
 
 
 export default function Home() {
@@ -39,9 +39,10 @@ export default function Home() {
                     <Link to="/page3">Programs</Link>
                     <Link to="/page4">Team</Link>
                     
-                    <Link to="" alt="bottom-line"></Link>
+                    <Link to="" alt="bottom-line" />
 
                 </HomeDirectory>
+                <Footer />
             </div>
         </div>
     );
