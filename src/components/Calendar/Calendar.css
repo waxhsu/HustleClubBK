@@ -1,9 +1,64 @@
 .calendar-container {
     width: 100%;
+    /* border: blue 2px solid; */
 }
 
 .calendar {
     display: flex;
+    /* max-width: 80%; */
     border: red 2px solid;
     flex-wrap: wrap;
+    justify-content: center;
 }
+
+
+
+
+
+/* eventCard information */
+.eventCard {
+    /* border: green 2px solid; */
+    width: fit-content;
+    height: 80vh;
+    margin: 0 0.25em;
+}
+
+.eventImg {
+    /* max-width: 17em; */
+    margin-bottom: 1em;
+}
+
+.eventDate {
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-bottom: 0.5em;
+}
+
+.eventName {
+    font-family: 'JetBrains Mono';
+    color: rgb(188, 152, 255);
+    line-height: 1.5em;
+    text-transform: uppercase;
+}
+
+.eventSpecial {
+    font-family: 'JetBrains Mono';
+    color: rgb(255, 197, 134);
+}
+
+.eventDesc {
+    margin: 1em 0;
+}
+
+.eventDesc, .classTime, .sessionTime, .location {
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+.location {
+    text-wrap: wrap;
+}
+
+
+
+
