@@ -8,109 +8,23 @@
   font-weight: bold;
 }
 
-.header-background {
-  /* background-color: pink; */
-  /* opacity: 75%; */
-  /* padding: 1em 0; */
-  /* padding-bottom: 2em; */
-  width: 100%;
-}
-
-.header-nav {
-  display: flex;
-  background-color: hotpink;
-  /* padding: 0.5em 0; */
-  opacity: 75%;
-  width: 100%;
-  /* justify-content: space-between; */
-  /* align-items: center; */
-  position: relative;
-}
-
-/* Logo styles */
-.header-logo {
-  width: 10em;
-}
-
-/* Link styles */
-.header-nav a {
-  color: black;
-  opacity: 50%;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-decoration: none;
-  padding-left: 1em;
-}
-
-/* Default styles for the links */
-.header-links {
-  display: flex;
-  justify-content: space-around;
-  background-color: hotpink;
-  width: 100%;
-  align-items: center;
-  color: black;
-  padding: 0.5em 0;
-  opacity: 75%;
-  position: relative;
-}
-
-/* Hamburger menu styles */
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  gap: 5px;
-}
-
-.hamburger .bar {
-  width: 25px;
-  height: 3px;
-  background-color: black;
-  transition: 0.3s;
-}
-
-/* Styling for the Hero section */
-.hero {
-  display: flex;
-}
-
-.hero img {
-  max-width: 10em;
-  max-height: 10em;
-  height: auto;
-  margin: 0 1em 0 0;
-}
-
-.hero-paragraphs {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-weight: 700;
-}
-
-.hero-paragraphs p {
-  margin: 0.25em;
-  font-size: 20px
-}
-
 /* Styles for the main heading and subtitle */
 #title-container {
   width: 100%;
-  border-top: 0.2em solid rgba(0, 0, 0, 0) ;
-  border-bottom: 0.2em solid rgba(0, 0, 0, 0) ;
+  border-top: 0.1em solid rgba(0, 0, 0, 0) ;
+  border-bottom: 0.1em solid rgba(0, 0, 0, 0) ;
+  /* background-color: #4a90e2; */
+  /* opacity: 80%; */
 }
 
 #titleBanner {
   display: flex;
   justify-content: center;
-  background-color: rgb(255, 221, 226);
-  font-size: 6.25em;
+  /* css for similar to font-size: 6.25em */
   width: 100%;
   margin: 0;
   opacity: 80%;
-  /* text-wrap: nowrap; */
-  text-decoration: none;
+  /* mix-blend-mode: luminosity; */
 }
 
 .subtitleBanner {

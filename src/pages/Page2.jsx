@@ -8,11 +8,7 @@ import Article from "../components/Article/Article";
 
 
 import Footer from "../components/Footer/Footer";
-import LeftContent from "../components/LeftContent/LeftContent";
-import RightContent from "../components/RightContent/RightContent";
-import Testimonials from "../components/Testimonials/Testimonials";
 import TestComponent from "../components/TestComponent/TestComponent";
-import VideoSeries from "../components/VideoSeries/VideoSeries";
 
 
 export default function Teams() {
@@ -37,15 +33,7 @@ export default function Teams() {
                     </ul>
                 </div>
             </Article>
-            <Testimonials>
-                <p>Wow, our team’s time with Jared had been a whirlwind of learning and development!
-                </p>
-                <p>I moved into a new role, building a team to bring valuable users through software products and workflows that help them achieve their goals and desired outcomes.
-                </p>
-                <p>Jared has helped me tremendously to articulate how we can make the life of the customer better and how to be effective in collaborating with other functional leaders in a UX role.
-                </p>
-                <span><b>- Senior Product Leader</b></span>
-            </Testimonials>
+            
             <TestComponent>
                 <div>
                     <h3>For Less than 8 Team Members: Join a Public Course</h3>
@@ -94,16 +82,7 @@ export default function Teams() {
                     </p>
                 </div>
             </TestComponent>
-            <VideoSeries>
-                <div className="width-test-team pl-2">
-                    <p className="">If you think a tailored, private Outcome-Driven UX Metrics course would be critical for your entire team, contact Jared to discuss the benefits and costs.
-                    </p>
-                </div>
-                <div className="">
-                    <h3>Talk to Jared Over a Call</h3>
-                    <button className=" btn btn-shadow green-team-button"><a className="purchase-box-button-white" href="https://jmspool-mentoring.youcanbook.me/">Contact Us and Talk to Jared</a></button>
-                </div>
-            </VideoSeries>
+
             <Footer />
         </div >
 

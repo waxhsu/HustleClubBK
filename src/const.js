@@ -1,9 +1,12 @@
-import servicePlaceholder from './images/servicePlaceholder.jpg';
-import testimonyPlaceholder from './images/testimonyPlaceholder.png';
+import event1 from './images/cards/1.png';
+import event2 from './images/cards/2.png';
+import event3 from './images/cards/3.png';
+import event4 from './images/cards/4.png';
+import event5 from './images/cards/5.png';
+import event6 from './images/cards/6.png';
+import event7 from './images/cards/7.png';
+import event8 from './images/cards/8.png';
 
-import landingPic1 from './images/landingPlaceholder1.jpg';
-import landingPic2 from './images/landingPlaceholder2.jpg';
-import landingPic3 from './images/landingPlaceholder3.jpg';
 
 //FOOTER
 import facebook from './images/social/facebook.png';
@@ -12,10 +15,59 @@ import twitter from './images/social/twitter.png';
 import youtube from './images/social/youtube.png';
 import instagram from './images/social/instagram.png';
 
-import amex from './images/payment/amex.png';
-import discover from './images/payment/discover.png';
-import mastercard from './images/payment/mastercard.png';
-import visa from './images/payment/visa.png';
+
+
+export const EVENT_info = [
+  {
+    date: 'NOV 6/ 2024',
+    special: true,
+    src: event1,
+    link: '',
+  },
+  {
+    date: 'NOV 6/ 2024',
+    special: false,
+    src: event2,
+    link: '',
+  },
+  {
+    date: 'NOV 6/ 2024',
+    special: false,
+    src: event3,
+    link: '',
+  },
+  {
+    date: 'NOV 6/ 2024',
+    special: false,
+    src: event4,
+    link: '',
+  },
+  {
+    date: 'NOV 6/ 2024',
+    special: false,
+    src: event5,
+    link: '',
+  },
+  {
+    date: 'NOV 6/ 2024',
+    special: false,
+    special: true,
+    src: event6,
+    link: '',
+  },
+  {
+    date: 'NOV 6/ 2024',
+    special: false,
+    src: event7,
+    link: '',
+  },
+  {
+    date: 'NOV 6/ 2024',
+    special: false,
+    src: event8,
+    link: '',
+  },
+]
 
 
 

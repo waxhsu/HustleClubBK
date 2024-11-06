@@ -3,12 +3,14 @@ body {
   /* border: 1px solid red; */
   /* margin: 0 auto; */
   font-family: "Open Sans", sans-serif;
+  
   /* background-color: black; */
+  background-color: #1A0049;
   /* overflow: hidden; */
 }
 
 .App {
-  position: relative;
+  /* position: relative; */
   width: 100vw;
   height: 100vh;
   /* overflow: hidden; */
@@ -25,16 +27,15 @@ body {
   z-index: -1;
 }
 
-.content {
-  position: relative;
+.pageTitle {
   color: white;
-  text-align: center;
-  z-index: 1;
+  text-transform: uppercase;
+  padding: 0 0.25em;
+  font-size: 4em;
+  margin: 0;
+  font-weight: 400;
 }
 
-
-
-/* UNIVERSAL1.3em for p */
 * p {
   line-height: 1.5em;
 }
@@ -48,15 +49,6 @@ h4 {
   line-height: 1.5em;
 }
 
-.calendar-container {
-  /* display: flex;
-  flex-direction: column; */
-  margin: 0 auto;
-  width: 75%;
-  max-width: 60em;
-  font-weight: bold;
-  margin-bottom: 5em;
-}
 
 .container {
   display: flex;

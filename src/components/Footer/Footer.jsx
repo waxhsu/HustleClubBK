@@ -1,6 +1,6 @@
 import React from "react";
 import './Footer.css'
-import {FOOTER_company, FOOTER_customerCare, FOOTER_account, FOOTER_socials, FOOTER_payment} from '../../const.js';
+import {FOOTER_socials} from '../../const.js';
 
 export default function Footer() {
     return (

@@ -1,0 +1,118 @@
+
+  .navbar-container {
+    display: flex;
+    background-color: hotpink;
+    padding: 0.5em 0;
+    /* opacity: 75%; */
+    width: 100%;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* position: fixed; */
+  }
+    
+  /* Link styles */
+  .header-nav a {
+    color: black;
+    /* opacity: 50%; */
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 1em;
+  }
+  
+  /* Default styles for the links */
+  .navbar-links {
+    display: flex;
+    justify-content: space-around;
+    background-color: hotpink;
+    width: 100%;
+    align-items: center;
+    color: black;
+    padding: 0.5em 0;
+    /* opacity: 75%; */
+    position: relative;
+  }
+  
+  /* Hamburger menu styles */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+  }
+  
+  .hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    transition: 0.3s;
+  }
+  
+
+  
+
+
+  
+  
+  
+
+  @media (max-width: 768px) {
+    .navbar-links {
+      display: none;
+      /* Hide links on mobile by default */
+      flex-direction: column;
+      position: absolute;
+      top: 40px;
+      left: 0px;
+      /* opacity: 85%; */
+      background-color: black;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+      padding: 20px 0px 20px 25px;
+      /* Equal padding on all sides */
+      width: auto;
+      /* Set width to auto to accommodate the longest text */
+      min-width: 200px;
+      /* Optional: set a minimum width */
+    }
+  
+    .navbar-links.open {
+      display: flex;
+      /* Show links when menu is open */
+    }
+  
+    .navbar-links a {
+      padding: 10px 10px 10px 10px;
+      /* Reduce padding on the right */
+      text-align: left;
+      /* Align text to the left */
+      width: 100%;
+      /* Make the link take up the full width of the container */
+      white-space: nowrap;
+      /* Prevent text wrapping */
+      text-decoration: none;
+      /* Remove default underline */
+      color: white;
+      /* Link color */
+    }
+  
+    .navbar-links a:hover,
+    .navbar-links a:active {
+      text-decoration: underline;
+      /* Add underline on hover and active */
+    }
+  
+  
+    .hamburger {
+      padding-left: 1em;
+      display: flex;
+      /* Show hamburger icon on mobile */
+    }
+  
+    .header-nav {
+      flex-direction: row;
+      padding: 0.5em 0;
+    }
+  }
+  

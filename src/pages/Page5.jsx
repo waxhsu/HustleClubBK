@@ -8,9 +8,8 @@ import LandingArticle from "../components/LandingArticle/LandingArticle";
 import Article from "../components/Article/Article";
 import Footer from "../components/Footer/Footer";
 import Modal from "../components/Modal/Modal";
-import LeftContent from "../components/LeftContent/LeftContent";
 import TestComponent from "../components/TestComponent/TestComponent";
-import SpiffyCheckout from "../components/SpiffyCheckout/SpiffyCheckout";
+
 
 export default function November() {
     return (
@@ -50,15 +49,12 @@ export default function November() {
                 </div>
             </TestComponent >
 
-            <SpiffyCheckout >
-                <spiffy-checkout url="https://centercentre.spiffy.co/checkout/ux-metrics-nov" ></spiffy-checkout>
-            </SpiffyCheckout>
 
 
 
 
 
-            < Footer />
+            {/* < Footer /> */}
         </div >
 
 
