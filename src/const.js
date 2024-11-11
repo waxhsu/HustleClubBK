@@ -16,6 +16,7 @@ import event8 from './images/cards/8.png';
 // This eventually will be put into Google Sheets API
 export const EVENT_info = [
   {
+    id: 0,
     date: 'NOV 6/ 2024',
     special: true,
     src: event1,
@@ -27,7 +28,8 @@ export const EVENT_info = [
     link: '',
   },
   {
-    date: 'NOV 6/ 2024',
+    id: 1,
+    date: 'NOV 20/ 2024',
     special: false,
     src: event2,
     eventName: "The Wednesday Social",
@@ -38,7 +40,8 @@ export const EVENT_info = [
     link: '',
   },
   {
-    date: 'NOV 6/ 2024',
+    id: 2,
+    date: 'DEC 4/ 2024',
     special: false,
     src: event3,
     eventName: "The Wednesday Social",
@@ -49,7 +52,8 @@ export const EVENT_info = [
     link: '',
   },
   {
-    date: 'NOV 6/ 2024',
+    id: 3,
+    date: 'DEC 18/ 2024',
     special: false,
     src: event4,
     eventName: "The Wednesday Social",
@@ -60,7 +64,8 @@ export const EVENT_info = [
     link: '',
   },
   {
-    date: 'NOV 6/ 2024',
+    id: 4,
+    date: 'JAN 8/ 2024',
     special: false,
     src: event5,
     eventName: "The Wednesday Social",
@@ -71,7 +76,8 @@ export const EVENT_info = [
     link: '',
   },
   {
-    date: 'NOV 6/ 2024',
+    id: 5,
+    date: 'JAN 22/ 2024',
     special: false,
     special: true,
     src: event6,
@@ -83,7 +89,8 @@ export const EVENT_info = [
     link: '',
   },
   {
-    date: 'NOV 6/ 2024',
+    id: 6,
+    date: 'FEB 5/ 2024',
     special: false,
     src: event7,
     eventName: "The Wednesday Social",
@@ -94,7 +101,8 @@ export const EVENT_info = [
     link: '',
   },
   {
-    date: 'NOV 6/ 2024',
+    id: 7,
+    date: 'FEB 19/ 2024',
     special: false,
     src: event8,
     eventName: "The Wednesday Social",
@@ -105,6 +113,17 @@ export const EVENT_info = [
     link: '',
   },
 ]
+
+// export const EVENT_img = {
+//   event1: './images/cards/1.png',
+//   event2: './images/cards/2.png',
+//   event3: './images/cards/3.png',
+//   event4: './images/cards/4.png',
+//   event5: './images/cards/5.png',
+//   event6: './images/cards/6.png',
+//   event7: './images/cards/7.png',
+//   event8: './images/cards/8.png',
+// }
 
 
 

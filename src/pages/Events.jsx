@@ -14,15 +14,18 @@ export default function Events() {
             <h1 className="pageTitle">Events</h1>
             {/* <Header /> */}
             < LandingArticle >
-                <div>filters:</div>
 
+                {/* PERHAPS CREATE A FILTER COMPONENT??? */}
+                <div>filters:</div>
                 <div>NUMBER results</div>
                 <Calendar />
-
-                
-
-
+                <div className="events-moreInfo">
+                Events are updated on a regular basis. Check back for more or
+                <a href="mailto: hello@hustleclub.org">get in touch</a>
+                to do something together.
+                </div>
             </LandingArticle >
+
 
 
 

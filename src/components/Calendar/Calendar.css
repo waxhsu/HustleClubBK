@@ -18,7 +18,7 @@
 /* eventCard information */
 .eventCard {
     /* border: green 2px solid; */
-    width: fit-content;
+    /* width: 25%; */
     height: 80vh;
     margin: 0 0.25em;
 }
@@ -50,7 +50,7 @@
     margin: 1em 0;
 }
 
-.eventDesc, .classTime, .sessionTime, .location {
+.eventDesc, .classTime, .sessionTime, .location, .price {
     font-size: 14px;
     line-height: 1.5em;
 }

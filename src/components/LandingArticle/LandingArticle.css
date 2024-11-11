@@ -18,17 +18,10 @@
     /* max-width: 60em; */
 }
 
-.LandingArticle-content p {
-    font-weight: bold;
-    line-height: 1.5em;
-    max-width: 60%;
-    font-size: 20px;
-}
-
 .LandingArticle-content h2 {
-    font-weight: bold;
+    /* font-weight: bold; */
     /* max-width: 60%; */
-    margin: 4em 0;
+    /* margin: 4em 0; */
 }
 
 .landing-text-container {
