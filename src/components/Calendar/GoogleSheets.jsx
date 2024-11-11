@@ -33,9 +33,9 @@
 
 import axios from 'axios';
 
-const SHEET_ID = '1oLbVgmA2kOVRmWljWe3fOOd49Fn7RbIi10UFfHatZ_k';
-const API_KEY = 'AIzaSyANUHvMLavzTpRvNl4G-9duv-c63tCou9g';
-const SHEET_NAME = 'test1';
+const SHEET_ID = process.env.REACT_APP_SHEET_ID;
+const API_KEY = process.env.REACT_APP_API_KEY;
+const SHEET_NAME = process.env.REACT_APP_SHEET_NAME;
 
 
 
