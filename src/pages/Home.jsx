@@ -8,6 +8,7 @@ import HomeDirectory from "../components/HomeDirectory/HomeDirectory";
 import Footer from '../components/Footer/Footer';
 import bgVideo from "../videos/bgVideo.MP4"
 import Navbar from "../components/Navbar/Navbar"
+import Instagram from "../components/Instagram/Instagram"
 
 
 export default function Home() {
@@ -41,6 +42,12 @@ export default function Home() {
                         <Link to="" alt="bottom-line" />
 
                     </HomeDirectory>
+
+
+
+                <Instagram />
+
+
 
                 <Footer />
             </div>

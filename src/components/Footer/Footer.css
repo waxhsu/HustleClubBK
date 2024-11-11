@@ -1,36 +1,38 @@
 .footer {
     display: flex;
-    /* flex-direction: column; */
-    background-color: black;
-    color: white;
-    padding: 1em 0;
+    flex-direction: column;
+    background-color: rgb(229,255,0);
+    color: black;
+    padding: 1em 2em;
     justify-content: space-around;
     /* position: fixed; */
     width: 100%;
     bottom: 0;
 }
 
-
-.copyright-and-stuff {
+.socials-container {
+    width: 75%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-
-.social_icons {
-    filter: invert(100%);
-    width: 2em;
-    padding-left: 0.5em;
+.socialLinks a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-.socials-container {
+.socialLinks a:hover{
+    text-decoration: underline;
+}
+
+.copyright-and-stuff {
+    margin-top: 5em;
     display: flex;
-    /* width: 75%; */
-    justify-content: space-evenly;
-    ;
+    align-items: center;
+    font-size: 12px;
 }
-
-
 
 
 

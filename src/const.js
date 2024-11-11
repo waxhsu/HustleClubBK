@@ -9,14 +9,11 @@ import event8 from './images/cards/8.png';
 
 
 //FOOTER
-import facebook from './images/social/facebook.png';
-import linkedin from './images/social/linkedin.png';
-import twitter from './images/social/twitter.png';
-import youtube from './images/social/youtube.png';
-import instagram from './images/social/instagram.png';
+// import youtube from './images/social/youtube.png';
+// import instagram from './images/social/instagram.png';
 
 
-
+// This eventually will be put into Google Sheets API
 export const EVENT_info = [
   {
     date: 'NOV 6/ 2024',
@@ -113,23 +110,24 @@ export const EVENT_info = [
 
 export const FOOTER_socials = [
   {
-    src: facebook,
-    link: 'https://www.facebook.com',
+    name: "instagram",
+    // src: instagram,
+    link: 'https://www.instagram.com',
   },
   {
-    src: linkedin,
-    link: 'https://www.linkedin.com',
+    name: "tiktok",
+    // src: tiktok,
+    link: 'https://www.tiktok.com',
   },
   {
-    src: twitter,
-    link: 'https://www.twitter.com',
-  },
-  {
-    src: youtube,
+    name: "youtube",
+    // src: youtube,
     link: 'https://www.youtube.com',
   },
   {
-    src: instagram,
-    link: 'https://www.instagram.com',
+    name: "mixcloud",
+    // src: mixcloud,
+    link: 'https://www.mixcloud.com',
   },
+
 ]

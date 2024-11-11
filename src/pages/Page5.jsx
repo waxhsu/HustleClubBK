@@ -7,7 +7,7 @@ import Header from "../components/Header/Header";
 import LandingArticle from "../components/LandingArticle/LandingArticle";
 import Article from "../components/Article/Article";
 import Footer from "../components/Footer/Footer";
-import Modal from "../components/Modal/Modal";
+
 import TestComponent from "../components/TestComponent/TestComponent";
 
 

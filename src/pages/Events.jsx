@@ -15,6 +15,7 @@ export default function Events() {
             {/* <Header /> */}
             < LandingArticle >
                 <div>filters:</div>
+
                 <div>NUMBER results</div>
                 <Calendar />
 

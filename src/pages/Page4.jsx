@@ -7,7 +7,7 @@ import LandingArticle from "../components/LandingArticle/LandingArticle";
 import Article from "../components/Article/Article";
 import Footer from "../components/Footer/Footer";
 import TestComponent from "../components/TestComponent/TestComponent";
-import Modal from "../components/Modal/Modal";
+
 
 
 export default function Topics() {
@@ -29,7 +29,7 @@ export default function Topics() {
                     <p>We keep the cohorts small, so you’ll have plenty of time to be coached on how you’ll implement your Outcome-driven UX metrics.
                     </p>
                 </div>
-                <Modal />
+                
             </TestComponent >
 
             {/* <Footer /> */}
