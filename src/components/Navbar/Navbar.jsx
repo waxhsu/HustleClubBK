@@ -25,12 +25,12 @@ export default function Navbar() {
             </nav>
                 {/* Links */}
                 <div className={`navbar-links navbar-links ${menuOpen ? 'open' : ''}`}>
-                    <Link to="/">Home (Page0)</Link>
-                    <Link to="/events">P1 (Events)</Link>
-                    <Link to="/page2">P2 (Mission)</Link>
-                    <Link to="/page3">P3 (Programs)</Link>
-                    <Link to="/page4">P4 (Team)</Link>
-                    <Link to="/page5">P5 (Contact)</Link>
+                    <Link to="/">Home</Link>
+                    <Link to="/events">Events</Link>
+                    <Link to="/mission">Mission</Link>
+                    <Link to="/page3">Programs (not done)</Link>
+                    <Link to="/team">Team</Link>
+                    <Link to="/page5">Contact (not done)</Link>
                 </div>
 
         

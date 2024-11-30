@@ -7,6 +7,13 @@ import event6 from './images/cards/6.png';
 import event7 from './images/cards/7.png';
 import event8 from './images/cards/8.png';
 
+import team1 from './images/team/1.png';
+import team2 from './images/team/2.png';
+import team3 from './images/team/3.png';
+import team4 from './images/team/4.png';
+import team5 from './images/team/5.png';
+import team6 from './images/team/6.png';
+
 
 //FOOTER
 // import youtube from './images/social/youtube.png';
@@ -114,16 +121,57 @@ export const EVENT_info = [
   },
 ]
 
-// export const EVENT_img = {
-//   event1: './images/cards/1.png',
-//   event2: './images/cards/2.png',
-//   event3: './images/cards/3.png',
-//   event4: './images/cards/4.png',
-//   event5: './images/cards/5.png',
-//   event6: './images/cards/6.png',
-//   event7: './images/cards/7.png',
-//   event8: './images/cards/8.png',
-// }
+// This eventually will be put into Google Sheets API
+export const TEAM_info = [
+  {
+    id: 0,
+    src: team1,
+    name: 'Sara Green',
+    title: 'CEO',
+    desc: 'Contrary to popular belief, Sara is, in fact, not green.',
+    link: 'http://www.google.com',
+  },
+  {
+    id: 1,
+    src: team2,
+    name: 'Max Hsu',
+    title: 'Fullstack Developer',
+    desc: 'Max often forgets to eat, drink water, and go to the bathroom during hyper focus.',
+    link: '',
+  },
+  {
+    id: 2,
+    src: team3,
+    name: 'Kenji Tominaga',
+    title: 'Finance Bro',
+    desc: 'In Rush Hour 3, the actor who plays the main antogonist kinda looks like Kenji. The antoganist character coincidentally is also named Kenji.',
+    link: '',
+  },
+  {
+    id: 3,
+    src: team4,
+    name: 'Jamal – RClass',
+    title: 'DJ',
+    desc: 'Legend has it that Jamal can bench press 40 boxes of DJ equipment just because he can.',
+    link: '',
+  },
+  {
+    id: 4,
+    src: team5,
+    name: 'Still1',
+    title: 'the other DJ',
+    desc: 'Still1 still cannot bench press as much as Jamal.',
+    link: '',
+  },
+  {
+    id: 5,
+    src: team6,
+    name: 'Green Sara',
+    title: 'asdf',
+    desc: 'This Sara is, in fact, green.',
+    link: '',
+  },
+]
 
 
 
@@ -150,3 +198,17 @@ export const FOOTER_socials = [
   },
 
 ]
+
+
+
+
+// export const EVENT_img = {
+//   event1: './images/cards/1.png',
+//   event2: './images/cards/2.png',
+//   event3: './images/cards/3.png',
+//   event4: './images/cards/4.png',
+//   event5: './images/cards/5.png',
+//   event6: './images/cards/6.png',
+//   event7: './images/cards/7.png',
+//   event8: './images/cards/8.png',
+// }

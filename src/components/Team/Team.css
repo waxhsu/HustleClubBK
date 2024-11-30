@@ -1,0 +1,53 @@
+.team-container {
+    width: 100%;
+    /* border: blue 2px solid; */
+}
+
+.team {
+    display: flex;
+    /* max-width: 80%; */
+    border: red 2px solid;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+/* teamCard information */
+.teamCard {
+    border: green 2px solid;
+    /* width: 25%; */
+    /* height: 60vh; */
+    margin: 0 0.25em;
+    max-width: 20em;
+    min-width: 20em;
+}
+
+.teamImg {
+    max-width: 15em;
+    margin-bottom: 1em;
+}
+
+.teamName {
+    font-family: 'JetBrains Mono';
+    color: rgb(188, 152, 255);
+    line-height: 1.5em;
+    text-transform: uppercase;
+}
+
+.teamDesc {
+    margin: 1em 0;
+    text-wrap: wrap;
+    line-height: 1.5em;
+    font-size: 14px;
+}
+
+.teamLink {
+    background-color: white;
+}
+
+
+
+

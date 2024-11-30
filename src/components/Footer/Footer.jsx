@@ -17,7 +17,7 @@ export default function Footer() {
             </div>
 
             <div className='copyright-and-stuff'>
-                <div>© Hustle Club Inc. All Rights Reserved.</div>
+                <div>© Hustle Club Inc. All Rights Reserved. Website created by <a className="website-link" href="https://github.com/waxhsu">Max Hsu</a>.</div>
             </div>
 
         </div>
