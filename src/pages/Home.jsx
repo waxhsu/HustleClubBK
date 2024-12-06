@@ -8,7 +8,7 @@ import HomeDirectory from "../components/HomeDirectory/HomeDirectory";
 import Footer from '../components/Footer/Footer';
 import bgVideo from "../videos/bgVideo.MP4"
 import Navbar from "../components/Navbar/Navbar"
-import Instagram from "../components/Instagram/Instagram"
+import InstagramFeed from "../components/InstagramFeed/InstagramFeed"
 
 
 export default function Home() {
@@ -35,7 +35,7 @@ export default function Home() {
                 </LandingArticle >
                     < HomeDirectory >
                         <Link to="/events">Events</Link>
-                        <Link to="/page2">Mission</Link>
+                        <Link to="/mission">Mission</Link>
                         <Link to="/page3">Programs</Link>
                         <Link to="/page4">Team</Link>
                         
@@ -45,7 +45,7 @@ export default function Home() {
 
 
 
-                <Instagram />
+                <InstagramFeed />
 
 
 

@@ -8,7 +8,6 @@ const SHEET_NAME = process.env.REACT_APP_SHEET_NAME;
 export const fetchData = async () => {
   const url = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${SHEET_NAME}?alt=json&key=${API_KEY}`;
 
-
     try {
         const response = await axios.get(url);
         const columns = response.data.values;

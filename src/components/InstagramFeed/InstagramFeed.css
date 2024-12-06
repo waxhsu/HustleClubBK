@@ -1,0 +1,5 @@
+#InstagramFeed {
+    border: yellow solid 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
