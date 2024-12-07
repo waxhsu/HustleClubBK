@@ -3,7 +3,6 @@ import React from "react";
 // components
 import LandingArticle from "../components/LandingArticle/LandingArticle";
 import Navbar from "../components/Navbar/Navbar"
-import Header from '../components/Header/Header';
 
 import Calendar from "../components/Calendar/Calendar";
 import Footer from "../components/Footer/Footer";

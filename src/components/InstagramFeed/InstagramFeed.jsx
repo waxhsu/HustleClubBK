@@ -16,16 +16,22 @@ export const InstagramFeed = () => {
 
   return (
     <div id="InstagramFeed">
-      {/* Limiting to 8 items */}
-      {events.slice(0, 8).map((post) => (
-        
-          <div key={post.id}>
+      <div className="socialHeader">
+        <div className="social-text">Your new dance life on IG <br /> @hustleclub_BK</div>
+        <a className="social-text" href="https://www.instagram.com/hustleclub_bk">Follow us ➔</a>
+      </div>
+      
+      <div className="social-container">
+        {events.map((post) => (
+          <div className="socialCard" key={post.id}>
             <a href={post.permalink} target="_blank" rel="noopener noreferrer">
-              <img src={post.media_url} alt="Instagram post" style={{ width: "200px" }} />
+              <img className="socialImg" src={post.thumbnail_url || post.media_url} alt="Instagram post" />
             </a>
           </div>
-        
-      ))}
+        ))}
+      </div>
+
+
     </div>
   );
 };

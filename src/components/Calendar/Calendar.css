@@ -5,7 +5,7 @@
 
 .calendar {
     display: flex;
-    /* max-width: 80%; */
+    
     border: red 2px solid;
     flex-wrap: wrap;
     justify-content: center;
@@ -17,15 +17,18 @@
 
 /* eventCard information */
 .eventCard {
-    /* border: green 2px solid; */
-    /* width: 25%; */
+    border: green 2px solid;
+    width: 20em;
     height: 80vh;
     margin: 0 0.25em;
 }
 
 .eventImg {
-    /* max-width: 17em; */
+    width: 100%; 
+    max-width: 100%;
+    height: auto;
     margin-bottom: 1em;
+    border-radius: 25px;
 }
 
 .eventDate {

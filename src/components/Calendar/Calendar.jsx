@@ -3,18 +3,6 @@ import './Calendar.css';
 import { fetchData } from './GoogleSheets.jsx';
 import ReactMarkdown from 'react-markdown';
 
-// EVENT_info is for VERSION 1
-import { EVENT_info } from '../../const'
-
-
-
-/////////////////////////////////////////////
-///////////// ISSUES RIGHT NOW  /////////////
-// NEED TO FIND OUT A WAY TO PUBLISH CMS of IMAGE FILES
-/////////////////////////////////////////////
-/////////////////////////////////////////////
-
-// START :::: VERSION 2 (API CALL VERSION)
 export default function Calendar() {
     const [events, setEvents] = useState([]);
 
@@ -39,7 +27,7 @@ export default function Calendar() {
                         <div className="eventDesc">
                             <ReactMarkdown >
                                 {event.rich}
-                                </ReactMarkdown>
+                            </ReactMarkdown>
                         </div>
                         <div className="classTime">Class {event.classTime}</div>
                         <div className="sessionTime">Session {event.sessionTime}</div>
@@ -53,35 +41,3 @@ export default function Calendar() {
         </div>
     );
 }
-// END :::: VERSION 2 (API CALL VERSION)
-
-
-
-
-
-
-// // START :::: VERSION 1 (LOCAL VERSION)
-// export default function Calendar() {
-//     return (
-//         <div className="calendar-container">
-//             <div className='calendar'>
-//                 {EVENT_info.map((data) => {
-//                     return (
-//                         <div className='eventCard' key={data.id}>
-//                             <img className="eventImg" src={data.src} />
-//                             <div className="eventDate">{data.date}</div>
-//                             <div className="eventName">{data.eventName}</div>
-//                             {data.special && <div className="eventSpecial">SPECIAL EVENT</div>}
-//                             <div className="eventDesc">{data.eventDesc}</div>
-//                             <div className="classTime">Class {data.classTime}</div>
-//                             <div className="sessionTime">Session {data.sessionTime}</div>
-//                             <div className="location">{data.location}</div>
-//                         </div>
-//                     );
-//                 })}
-//             </div>
-//         </div>
-//     );
-// }
-
-// // END :::: VERSION 1 (LOCAL VERSION)

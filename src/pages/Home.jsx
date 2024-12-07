@@ -34,10 +34,10 @@ export default function Home() {
                     </video>
                 </LandingArticle >
                     < HomeDirectory >
-                        <Link to="/events">Events</Link>
-                        <Link to="/mission">Mission</Link>
-                        <Link to="/page3">Programs</Link>
-                        <Link to="/page4">Team</Link>
+                        <Link to="/events">Events ➔</Link>
+                        <Link to="/mission">Mission ➔</Link>
+                        <Link to="/page3">Programs ➔</Link>
+                        <Link to="/page4">Team ➔</Link>
                         
                         <Link to="" alt="bottom-line" />
 
