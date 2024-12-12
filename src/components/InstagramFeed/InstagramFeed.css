@@ -1,11 +1,12 @@
 #InstagramFeed {
-    border: red 2px solid;
+    /* border: red 2px solid; */
     display: flex;
     flex-direction: column;
     padding: 0 0.25em;
     max-width: 100%;
     align-items: center;
     margin: 0 auto;
+    margin-bottom: 3em;
 }
 
 .socialHeader {
@@ -22,30 +23,108 @@
 }
 
 .socialHeader > div + a {
-    padding: 0 5em 0 0;
+    padding: 0 0 0 0;
 }
 
 
 .social-container {
-    border: yellow 2px solid;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 0 7em 0;
+    /* border: yellow 2px solid; */
+    display: grid;
     justify-content: center;
+    grid-template-columns: repeat(4, 2fr);
+    column-gap: 0.6em;
+    row-gap: 0.3em;
 }
 
 .socialCard {
-    border: green 2px solid;
-    margin: 0.2em;
     border-radius: 15px;
-    width: 14em;
-    height: 14em;
+    width: 100%;
+    aspect-ratio: 1;
     overflow: hidden;
+    position: relative;
+}
+
+.socialCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transition: transform 0.3s ease, filter 0.3s ease; 
+}
+
+.socialCard:hover img {
+    transform: scale(1.05); 
+    filter: brightness(0.8); 
 }
 
 .socialImg {
     width: 100%; 
-    height: 100%; 
+    height: auto; 
     object-fit: cover;
     object-position: top;
 }
+
+.socialCaption {
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); 
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    pointer-events: none; 
+  }
+
+  .socialCard:hover .socialCaption {
+    opacity: 1;
+  }
+
+/* TEST TEST TEST
+
+.socialCard {
+    position: relative;
+    border-radius: 15px;
+    width: 100%;
+    aspect-ratio: 1;
+    overflow: hidden;
+  }
+  
+  .socialCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  .socialCard:hover img {
+    transform: scale(1.05);
+    filter: brightness(0.8);
+  }
+  
+  
+  .socialCaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); 
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none; 
+  
+    
+    display: -webkit-box; 
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 3;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+  }
+  
+  .socialCard:hover .socialCaption {
+    opacity: 1; 
+  } */

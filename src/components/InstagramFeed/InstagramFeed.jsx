@@ -26,6 +26,7 @@ export const InstagramFeed = () => {
           <div className="socialCard" key={post.id}>
             <a href={post.permalink} target="_blank" rel="noopener noreferrer">
               <img className="socialImg" src={post.thumbnail_url || post.media_url} alt="Instagram post" />
+              <div className="socialCaption">@hustleclub_bk</div>
             </a>
           </div>
         ))}

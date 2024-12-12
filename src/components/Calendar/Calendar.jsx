@@ -16,8 +16,8 @@ export default function Calendar() {
     }, []);
 
     return (
-        <div className="calendar-container">
-            <div className="calendar">
+        <div id="Calendar">
+            <div className="calendar-container">
                 {events.map((event, index) => (
                     <div className="eventCard" key={event.id}>
                         <img className="eventImg" src={event.src} alt={event.name} />

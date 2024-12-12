@@ -15,7 +15,7 @@ export const fetchInstagramData = async () => {
     if (ids.length > 0) {
       const mediaDetails = await Promise.all(
         ids.map(async (id) => {
-          const mediaUrl = `https://graph.instagram.com/v21.0/${id}?fields=media_url,thumbnail_url,media_type,permalink&access_token=${IG_TOKEN}`;
+          const mediaUrl = `https://graph.instagram.com/v21.0/${id}?fields=media_url,thumbnail_url,media_type,permalink,caption&access_token=${IG_TOKEN}`;
           // console.log("Fetching media details from:", mediaUrl);
           const { data: mediaDetail } = await axios.get(mediaUrl);
           // console.log("Media detail response for ID", id, ":", mediaDetail);

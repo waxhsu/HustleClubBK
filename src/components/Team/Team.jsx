@@ -63,8 +63,8 @@ import { TEAM_info } from '../../const'
 // START :::: VERSION 1 (LOCAL VERSION)
 export default function Team() {
     return (
-        <div className="team-container">
-            <div className='team'>
+        <div id="Team">
+            <div className='team-container'>
                 {TEAM_info.map((data) => {
                     return (
                         <div className='teamCard' key={data.id}>

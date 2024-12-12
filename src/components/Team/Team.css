@@ -1,33 +1,29 @@
 .team-container {
-    width: 100%;
-    /* border: blue 2px solid; */
+    /* padding: 0 0.25em; */
+    /* max-width: 100%; */
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 3em;
 }
 
-.team {
-    display: flex;
-    /* max-width: 80%; */
+.team-container {
     border: red 2px solid;
-    flex-wrap: wrap;
+    display: grid;
     justify-content: center;
+    grid-template-columns: repeat(3, 2fr);
+    column-gap: 0.6em;
+    row-gap: 0.3em;
 }
-
-
-
 
 
 /* teamCard information */
 .teamCard {
     border: green 2px solid;
-    /* width: 25%; */
-    /* height: 60vh; */
-    margin: 0 0.25em;
-    max-width: 20em;
-    min-width: 20em;
 }
 
 .teamImg {
-    max-width: 15em;
-    margin-bottom: 1em;
+    width: 100%;
+    height: 100%;
 }
 
 .teamName {

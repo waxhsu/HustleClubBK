@@ -1,33 +1,30 @@
-.calendar-container {
+#Calendar {
     width: 100%;
-    /* border: blue 2px solid; */
+    /* align-items: center; */
+    margin: 0 auto;
+    margin-bottom: 3em;
 }
 
-.calendar {
-    display: flex;
-    
+.calendar-container {
     border: red 2px solid;
-    flex-wrap: wrap;
+    display: grid;
     justify-content: center;
+    grid-template-columns: repeat(4, 2fr);
+    column-gap: 0.6em;
+    row-gap: 0.3em;
 }
-
-
 
 
 
 /* eventCard information */
 .eventCard {
     border: green 2px solid;
-    width: 20em;
-    height: 80vh;
-    margin: 0 0.25em;
+    
 }
 
 .eventImg {
-    width: 100%; 
-    max-width: 100%;
+    width: 100%;
     height: auto;
-    margin-bottom: 1em;
     border-radius: 25px;
 }
 
